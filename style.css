@@ -1,0 +1,105 @@
+@font-face {
+  font-family: w8;
+  src: url(./font/w8gUH2YoQe8_4sq9rQ4.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: w8;
+  background: #f7f7ff;
+}
+main {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+hr {
+  height: 1px;
+  margin: 1.2rem;
+  opacity: 0.2;
+  color: inherit;
+}
+
+.w-blone {
+  display: inline-block;
+  padding: 3rem;
+  background: #fff;
+  border-radius: 6px;
+}
+.p-blone {
+  display: inline-block;
+  padding: 4rem;
+  background: #9b9fee;
+  border-radius: 6px;
+  /* valed tmam div farznd dr section-p */
+  color: #fff;
+}
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #6f7390;
+  margin: 3rem;
+  line-height: 2.25rem;
+}
+.h {
+  line-height: 2.25rem;
+  color: #6f7390;
+}
+.list-title-w {
+  color: #6b6b83;
+  text-align: center;
+  font-size: 18px;
+}
+.price-w {
+  color: #4c4f60;
+  font-size: 72px;
+}
+.storage-w {
+  font-size: 0.872rem;
+  color: #6b6b83;
+}
+.button-w {
+  color: #fff;
+  font-size: 0.872rem;
+  background: #7276e1;
+  border-radius: 0.5rem;
+  width: 100%;
+  border-color: #e5e7eb;
+  border-style: solid;
+  padding: 0.75rem;
+}
+.list-title-p {
+  text-align: center;
+  font-size: 18px;
+}
+.price-p{
+  font-size: 4.5rem;
+}
+.s-p{
+  font-size: 0.872rem;
+}
+.button-p{
+  color: #7276e1;
+   font-size: 0.872rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  width: 100%;
+  border-color: #e5e7eb;
+  border-style: solid;
+  padding: 0.75rem;
+  cursor: pointer;
+
+}
+input[type="submit"]:hover{
+  background:#9560f0 ;
+  color: #fff;
+  transition:0.5s;
+}
+/* ? man  property <transition:0.5s> vo nmidonam */
+/* todo =>  property <transition:0.5s> braie tagire deltaie zmane hver shdane */
+/* ?man @import url() nmifahmam braie chi kar nemikne*/
